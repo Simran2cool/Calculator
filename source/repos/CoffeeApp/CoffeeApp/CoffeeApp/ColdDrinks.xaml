@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CoffeeApp.ColdDrinks">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="SandyBrown">
+            <Label Text="COLD DRINKS" FontSize="25" Margin="20"
+                HorizontalOptions="CenterAndExpand" />
+            <Frame BackgroundColor="Brown"  CornerRadius="0">
+                <Label Text="Fanta 2.5ltr                                                   $3.99"  TextColor="White"  FontSize="18" />
+            </Frame>
+            <Frame BackgroundColor="Brown"  CornerRadius="0">
+                <Label Text="Coca Cola 2.5Ltr                                          $5.00"  TextColor="White"  FontSize="18" />
+            </Frame>
+            <Frame BackgroundColor="Brown"  CornerRadius="0">
+                <Label Text="Frozen Coke                                                 $1.50"  TextColor="White"  FontSize="18" />
+            </Frame>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

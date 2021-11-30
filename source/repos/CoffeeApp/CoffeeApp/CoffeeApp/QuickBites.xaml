@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CoffeeApp.QuickBites">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="SandyBrown">
+            <Label Text="QUICK BITES" FontSize="25" Margin="20"
+                HorizontalOptions="CenterAndExpand" />
+
+            <Frame BackgroundColor="Brown"  CornerRadius="0">
+                <Label Text="Bagel                                                             $1.50"  TextColor="White"  FontSize="18" />
+            </Frame>
+
+            <Frame BackgroundColor="Brown"  CornerRadius="0">
+                <Label Text="Eggs Benedict                                              $6.50"  TextColor="White"  FontSize="18" />
+            </Frame>
+
+
+
+
+        </StackLayout>
+
+    </ContentPage.Content>
+</ContentPage>

@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CoffeeApp.MainTabbedPage">
+  <!--Pages can be added as references or inline-->
+    <ContentPage Title="MENU" BackgroundColor="SandyBrown">
+        <StackLayout>
+            <Frame BackgroundColor="SandyBrown">
+                <Image Source="https://3dwarehouse.sketchup.com/warehouse/v1.0/publiccontent/d55c73d5-c5d8-41f0-a824-c4827096f76b" />
+            </Frame>
+            <Frame BackgroundColor="Brown"  CornerRadius="0">
+                <Button  x:Name="coffeeButton" Text="Espresso   >"  TextColor="White"  FontSize="18" Background="Transparent" Clicked="coffeeButton_Clicked"/>
+            </Frame>
+            <Frame BackgroundColor="Brown" CornerRadius="0">
+                <Button x:Name="HotDrinks" Text= "Hot Drinks     >" TextColor="White" FontSize="18" Background="Transparent" Clicked="HotDrinks_Clicked"/>
+            </Frame>
+            <Frame BackgroundColor="Brown"  CornerRadius="0">
+                <Button x:Name="ColdDrinks" Text="Cold Drinks   >"  TextColor="White" FontSize="18" Background="Transparent" Clicked="ColdDrinks_Clicked"/>
+            </Frame>
+            <Frame BackgroundColor="Brown"  CornerRadius="0">
+                <Button x:Name="QuickBites" Text="Quick bites  >"  TextColor="White" FontSize="18" Background="Transparent"  Clicked="QuickBites_Clicked"/>
+            </Frame>
+        </StackLayout>
+    </ContentPage>
+    <ContentPage Title="ABOUT" >
+        <StackLayout BackgroundColor="SandyBrown">
+            <Frame  BackgroundColor="SandyBrown">
+                <Label Text="SIMRAN'S CAFE " HorizontalOptions="Center"  FontSize="25"/>
+            
+            </Frame>
+            <Frame  BackgroundColor="SandyBrown">
+                <Image Source="https://cdn.pixabay.com/photo/2015/10/12/15/14/coffee-984328__340.jpg" HeightRequest="250" />
+            </Frame>
+            <Frame BackgroundColor="SandyBrown">
+                <CollectionView >
+                    <CollectionView.ItemsSource >
+                        <x:Array Type="{x:Type x:String}">
+                            <x:String>4A Kent Street</x:String>
+                            <x:String>Newmarket, Auckland</x:String>
+                            <x:String>1023</x:String>
+                            <x:String>+64 25020545</x:String>
+                            <x:String>info@Simran'scafe.co.nz</x:String>
+                        </x:Array>
+                    </CollectionView.ItemsSource>
+                </CollectionView>
+            </Frame>
+            
+        </StackLayout>
+    </ContentPage>
+
+    <ContentPage Title="MAP">
+        <WebView x:Name="mapView" Source="https://osm.org/go/uuVhg19~V?n=https://www.openstreetmap.org/search?query=4a%20kent%20road%2C%20newmarket%2C%20auckland#map=19/-36.86463/174.77765"/>
+    </ContentPage>
+</TabbedPage>
