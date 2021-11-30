@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "dgSpecHash": "GZk0GbmSsTlT1+aaJLe2kXxOfKKxYpmYsPBEPHNbvL30BUmp7WtQ4mGq7ZU3DZnsZbWgcI/sskdUR/JloyEfFA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\sweet\\source\\repos\\CryptoTracker\\CryptoTracker\\CryptoTracker\\CryptoTracker.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\sweet\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\sweet\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\sweet\\.nuget\\packages\\newtonsoft.json\\13.0.1\\newtonsoft.json.13.0.1.nupkg.sha512",
+    "C:\\Users\\sweet\\.nuget\\packages\\restsharp\\106.13.0\\restsharp.106.13.0.nupkg.sha512",
+    "C:\\Users\\sweet\\.nuget\\packages\\system.numerics.vectors\\4.5.0\\system.numerics.vectors.4.5.0.nupkg.sha512",
+    "C:\\Users\\sweet\\.nuget\\packages\\xamarin.essentials\\1.7.0\\xamarin.essentials.1.7.0.nupkg.sha512",
+    "C:\\Users\\sweet\\.nuget\\packages\\xamarin.forms\\5.0.0.2244\\xamarin.forms.5.0.0.2244.nupkg.sha512"
+  ],
+  "logs": []
+}

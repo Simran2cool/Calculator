@@ -2,3 +2,4 @@ testing filter=lfs diff=lfs merge=lfs -text
 CoffeeApp filter=lfs diff=lfs merge=lfs -text
 'CoffeeApp' filter=lfs diff=lfs merge=lfs -text
 Notes1 filter=lfs diff=lfs merge=lfs -text
+CryptoTracker filter=lfs diff=lfs merge=lfs -text
